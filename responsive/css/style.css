@@ -1,0 +1,257 @@
+  /*Container CSS Code*/
+        
+        
+        .container{
+         /* having the "." makes it a class*/
+            
+            width: 100%;
+            height: 100%;
+            background-color: whitesmoke;
+            padding-top: 2%;
+            
+            
+        }    
+        
+        
+        
+        .header{
+            
+            width: 80%;
+            height: 10%;
+            background-color: whitesmoke;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+        
+            
+            
+        }
+        
+    /*Menu Div*/    
+    
+    
+        .menu{
+            
+            width: 80%;
+            height: 6%;
+            background-color: whitesmoke;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+        
+            
+        }
+    
+    
+    
+    /* Main Div*/
+        
+         .main{
+            
+            width: 80%;
+            height: 50%;
+            background-color: whitesmoke;
+            margin-left: 10%;
+            margin-right: 10%;
+             margin-bottom: 4%;
+        
+            
+        }
+    
+        
+        
+        
+        
+        /* Product Div */
+        
+        
+    
+        .product{
+            
+            width:25%;
+            height:200%;
+            background-color: black;
+            float: left;
+            margin: 5%, 5%, 5%;
+            margin-top:30%
+            padding: 10%;    
+            /*padding add extra space*/
+            
+        }
+        
+        
+        
+        
+        
+        
+    /*Footer Div*/
+        
+        .footer{
+            
+            width: 80%;
+            height: 5%;
+            background-color: slategrey;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+            color:whitesmoke;
+            text-align: center;
+            margin-top: 22%;
+            
+        
+            
+        }
+
+  .footerabout{
+            
+            width: 80%;
+            height: 5%;
+            background-color: slategrey;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+            color:whitesmoke;
+            text-align: center;
+            margin-top: 5%;
+            
+        
+            
+        }
+
+
+      .footerproduct{
+            
+            width: 80%;
+            height: 5%;
+            background-color: slategrey;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+            color:whitesmoke;
+            text-align: center;
+            margin-top: 17%;
+            
+        
+            
+        }
+
+  .footercontact{
+            
+            width: 80%;
+            height: 5%;
+            background-color: slategrey;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+            color:whitesmoke;
+            text-align: center;
+            margin-top: 8%;
+            
+        
+            
+        }
+  .contact{
+            
+            width:40%;
+            height:70%;
+    
+            float: left;
+            margin: 1% 5% 5% 5%;
+            margin-top:10%
+            padding: 2%;   
+            
+            
+            
+            
+        }
+        
+        /*CSS Navigation code*/
+
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+
+            li {
+              float: left;
+            }
+
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+              background-color: #111;
+            }
+
+            .active {
+              background-color: #4CAF50;
+            }
+    
+    
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    input{
+        width:100%;    
+        height: 10%;
+         
+            
+        }
+        textarea{
+            width:100%;
+            height:30%;
+        }
+    
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
